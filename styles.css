@@ -429,7 +429,7 @@ label {
     border: 1px solid #d76d0a;
 }
 
-button[type="submit"] {
+.Signup button[type="submit"] {
     width: 50%;
     padding: 10px;
     font-size: 18px;
@@ -442,7 +442,7 @@ button[type="submit"] {
     transition: background-color 0.3s;
 }
 
-button[type="submit"]:hover {
+.Signup button[type="submit"]:hover {
     background-color: #874600;
 }
 
@@ -455,7 +455,7 @@ button[type="submit"]:hover {
     font-family: KyivTypeSerif-Regular;
 }
 
-.buttontext{
+.Signup .buttontext, .Signin .buttontext{
     font-family: KyivTypeSerif-Regular;
     font-size: 15px;
     margin-top: 5px;
@@ -494,7 +494,7 @@ button[type="submit"]:hover {
     border: 1px solid #d16603;
 }
 
-button[type="submit"] {
+.Signin button[type="submit"] {
     width: 50%;
     padding: 10px;
     font-size: 18px;
@@ -504,14 +504,15 @@ button[type="submit"] {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: KyivTypeSerif-Regular;
     margin-top: 10px;
 }
 
-button[type="submit"]:hover {
+.Signin button[type="submit"]:hover {
     background-color: #874600;
 }
 
-.buttontext {
+.Signin .buttontext, .Signup .buttontext {
     margin-top: 15px;
 }
 
