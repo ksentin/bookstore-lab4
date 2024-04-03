@@ -349,3 +349,178 @@ button{
     background-color: #CC6E00;
 }
 /*end catalog*/
+
+
+
+
+
+
+
+
+.Signup, .Signin {
+    max-width: 800px;
+    max-height: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #df84144f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Signin {
+    padding: 45px;
+}
+
+.Signup h2, .Signin h2 {
+    margin-bottom: 20px;
+}
+
+.form-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form-group {
+    flex-basis: calc(50% - 30px); /* Половина ширини з врахуванням відступу */
+}
+
+.form-group-signin{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+#genderform {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#genderform select{
+    width: 110px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #d16603;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+    font-family: KyivTypeSerif-Regular;
+    font-size: 15px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="password"] {
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #d76d0a;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #d16603;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: KyivTypeSerif-Regular;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #874600;
+}
+
+
+.GoToSignIn {
+    margin-top: 20px;
+    cursor: pointer;
+    color: #007bff; 
+    text-decoration: underline;
+    font-family: KyivTypeSerif-Regular;
+}
+
+.buttontext{
+    font-family: KyivTypeSerif-Regular;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.form-group-signin {
+    flex-direction: column;
+    text-align: left;
+}
+
+.form-group-signin label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group-signin input[type="email"],
+.form-group-signin input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 90%;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #d16603;
+}
+
+button[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #d76d0a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #874600;
+}
+
+.buttontext {
+    margin-top: 15px;
+}
+
+.GoToSignUp {
+    color: #007bff;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.GoToSignUp:hover {
+    text-decoration: underline;
+}

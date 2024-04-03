@@ -6,6 +6,7 @@
     <title>Книжковий магазин</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" type="text/css" href="adaptive-styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
     <header class="search-field">
@@ -35,9 +36,9 @@
         </div>
 
         <div class="search-field">
-            <input type="text" class="search-input" placeholder="Пошук">
+            <input type="text" class="search-input" id="searchInput" placeholder="Пошук">
             <button class="search-button">Пошук</button>
-            <select class="filter-select">
+            <select class="filter-select" id="sortSelect">
                 <option value="default">Сортувати за...</option>
                 <option value="price-desc">Ціна за спаданням</option>
                 <option value="price-asc">Ціна за зростанням</option>
