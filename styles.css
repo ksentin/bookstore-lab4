@@ -418,10 +418,10 @@ label {
     font-size: 15px;
 }
 
-input[type="text"],
-input[type="date"],
-input[type="email"],
-input[type="password"] {
+.Signup input[type="text"],
+.Signup input[type="date"],
+.Signup input[type="email"],
+.Signup input[type="password"]{
     width: 90%;
     padding: 8px;
     font-size: 16px;
